@@ -19,8 +19,20 @@ st.markdown("""
     margin-bottom:12px;
 }
 .metric-box {
-    padding:16px; border-radius:12px; background:white;
-    border:1px solid #e5e7eb; text-align:center;
+    padding:16px;
+    border-radius:12px;
+    background:white;
+    border:1px solid #e5e7eb;
+    text-align:center;
+    color:#111827 !important;
+}
+
+.metric-box h2 {
+    color:#111827 !important;
+}
+
+.metric-box .small {
+    color:#6b7280 !important;
 }
 .small {color:#6b7280; font-size:0.88rem;}
 .risk-high {color:#b91c1c; font-weight:700;}
